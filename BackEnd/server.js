@@ -37,3 +37,4 @@ app.get('/api/movies', (req, res) => {
     ];
     res.status(201).json({ movies });
 });
+
